@@ -1,0 +1,2 @@
+select ceil(avg(salary)-avg(replace(Salary,'0',''))) from employees;
+#REPLACE(str, find_string, replace_with)
